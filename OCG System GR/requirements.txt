@@ -7,4 +7,3 @@ streamlit
 requests
 pandas
 plotly
-Procfile
