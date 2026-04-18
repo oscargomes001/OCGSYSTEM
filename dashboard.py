@@ -7,7 +7,7 @@ import time
 from datetime import datetime, date, timedelta
 
 st.set_page_config(layout="wide", page_title="OCG System Dashboard")
-API_URL = "http://127.0.0.1:8000"
+API_URL = "http://ocgsystem-production.up.railway.app"
 
 # --- INICIALIZAÇÃO DE SESSÃO ---
 if "carrinho" not in st.session_state:
