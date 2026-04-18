@@ -53,7 +53,7 @@ if not st.session_state.token:
                     resp = requests.post(
                         f"{API_URL}/login",
                         data={"username": u, "password": p},
-                        timeout=5
+                        timeout=30
                     )
                     if resp.status_code == 200:
                         d = resp.json()
