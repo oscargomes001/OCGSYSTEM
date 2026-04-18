@@ -1,9 +1,0 @@
-fastapi
-uvicorn
-sqlalchemy
-argon2-cffi
-pydantic
-streamlit
-requests
-pandas
-plotly
